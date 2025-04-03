@@ -1,5 +1,5 @@
 # Spark_on_YARN
-This repository contains a NASA meteorite dataset processed using Spark on YARN within a dockerized, simulated Hadoop cluster. If you want to perform your own analysis on a dataset of your choice, follow the instructions below.
+This repository contains a [NASA meteorite dataset](https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh/about_data) processed using Spark on YARN within a dockerized, simulated Hadoop cluster. If you want to perform your own analysis on a dataset of your choice, follow the instructions below.
 
 ## How to use:
 - Download the virtual machine with Spark and the Hadoop cluster already installed and configured using the following link: [Spark_on_YARN.ova](https://drive.google.com/file/d/1xlUZP1TBtR94wRlprNRMVCWWGajC_APO/view?usp=drive_link)
