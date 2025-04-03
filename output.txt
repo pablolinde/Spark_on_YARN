@@ -1,0 +1,116 @@
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1743616043748
+	 final status: UNDEFINED
+	 tracking URL: http://resourcemanager:8088/proxy/application_1743611712639_0003/
+	 user: luser
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 172.18.0.4
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1743616043748
+	 final status: UNDEFINED
+	 tracking URL: http://resourcemanager:8088/proxy/application_1743611712639_0003/
+	 user: luser
+
+============================================================
+
+Registros más antiguos:
++----------------+-----+--------+------------+--------+-----+----+----------+-----------+
+|name            |id   |nametype|recclass    |mass (g)|fall |year|reclat    |reclong    |
++----------------+-----+--------+------------+--------+-----+----+----------+-----------+
+|Nogata          |16988|Valid   |L6          |472.0   |Fell |860 |33.725000 |130.750000 |
+|Narni           |16914|Valid   |Stone-uncl  |NULL    |Fell |920 |42.516670 |12.516670  |
+|Elbogen         |7823 |Valid   |Iron, IID   |107000.0|Fell |1399|50.183330 |12.733330  |
+|Rivolta de Bassi|22614|Valid   |Stone-uncl  |103.3   |Fell |1490|45.483330 |9.516670   |
+|Ensisheim       |10039|Valid   |LL6         |127000.0|Fell |1491|47.866670 |7.350000   |
+|Valdinoce       |24146|Valid   |Stone-uncl  |NULL    |Fell |1495|44.066670 |12.100000  |
+|Oliva-Gandia    |18012|Valid   |Stone-uncl  |NULL    |Fell |1519|39.000000 |-0.033330  |
+|Campo del Cielo |5247 |Valid   |Iron, IAB-MG|5.0E7   |Found|1575|-27.466670|-60.583330 |
+|Castrovillari   |5295 |Valid   |Stone-uncl  |15000.0 |Fell |1583|39.800000 |16.200000  |
+|Morito          |16745|Valid   |Iron, IIIAB |1.01E7  |Found|1600|27.050000 |-105.433330|
++----------------+-----+--------+------------+--------+-----+----+----------+-----------+
+
+
+============================================================
+
+Eliminar geolocalización (redundante):
++-------------------+---+--------+-----------+--------+----+----+---------+---------+
+|name               |id |nametype|recclass   |mass (g)|fall|year|lat      |long     |
++-------------------+---+--------+-----------+--------+----+----+---------+---------+
+|Aachen             |1  |Valid   |L5         |21.0    |Fell|1880|50.775   |6.08333  |
+|Aarhus             |2  |Valid   |H6         |720.0   |Fell|1951|56.18333 |10.23333 |
+|Abee               |6  |Valid   |EH4        |107000.0|Fell|1952|54.21667 |-113.0   |
+|Acapulco           |10 |Valid   |Acapulcoite|1914.0  |Fell|1976|16.88333 |-99.9    |
+|Achiras            |370|Valid   |L6         |780.0   |Fell|1902|-33.16667|-64.95   |
+|Adhi Kot           |379|Valid   |EH4        |4239.0  |Fell|1919|32.1     |71.8     |
+|Adzhi-Bogdo (stone)|390|Valid   |LL3-6      |910.0   |Fell|1949|44.83333 |95.16667 |
+|Agen               |392|Valid   |H5         |30000.0 |Fell|1814|44.21667 |0.61667  |
+|Aguada             |398|Valid   |L6         |1620.0  |Fell|1930|-31.6    |-65.23333|
+|Aguila Blanca      |417|Valid   |L          |1440.0  |Fell|1920|-30.86667|-64.55   |
++-------------------+---+--------+-----------+--------+----+----+---------+---------+
+only showing top 10 rows
+
+
+============================================================
+
+Añadir país a partir de coordenadas:
++-------------------+---+--------+-----------+--------+----+----+---------+---------+---------+
+|name               |id |nametype|recclass   |mass (g)|fall|year|lat      |long     |country  |
++-------------------+---+--------+-----------+--------+----+----+---------+---------+---------+
+|Aachen             |1  |Valid   |L5         |21.0    |Fell|1880|50.775   |6.08333  |Germany  |
+|Aarhus             |2  |Valid   |H6         |720.0   |Fell|1951|56.18333 |10.23333 |Denmark  |
+|Abee               |6  |Valid   |EH4        |107000.0|Fell|1952|54.21667 |-113.0   |Canada   |
+|Acapulco           |10 |Valid   |Acapulcoite|1914.0  |Fell|1976|16.88333 |-99.9    |Mexico   |
+|Achiras            |370|Valid   |L6         |780.0   |Fell|1902|-33.16667|-64.95   |Argentina|
+|Adhi Kot           |379|Valid   |EH4        |4239.0  |Fell|1919|32.1     |71.8     |Pakistan |
+|Adzhi-Bogdo (stone)|390|Valid   |LL3-6      |910.0   |Fell|1949|44.83333 |95.16667 |Mongolia |
+|Agen               |392|Valid   |H5         |30000.0 |Fell|1814|44.21667 |0.61667  |France   |
+|Aguada             |398|Valid   |L6         |1620.0  |Fell|1930|-31.6    |-65.23333|Argentina|
+|Aguila Blanca      |417|Valid   |L          |1440.0  |Fell|1920|-30.86667|-64.55   |Argentina|
++-------------------+---+--------+-----------+--------+----+----+---------+---------+---------+
+only showing top 10 rows
+
+
+============================================================
+
+Meteoritos más destructivos:
++---------------+-----+--------+-------------+--------+-----+----+---------+----------+------------------+-----------------+
+|name           |id   |nametype|recclass     |mass (g)|fall |year|lat      |long      |country           |destruction_score|
++---------------+-----+--------+-------------+--------+-----+----+---------+----------+------------------+-----------------+
+|Cape York      |5262 |Valid   |Iron, IIIAB  |5.82E7  |Found|1818|76.13333 |-64.93333 |Canada            |1.52775E8        |
+|Hoba           |11890|Valid   |Iron, IVB    |6.0E7   |Found|1920|-19.58333|17.91667  |Namibia           |1.05E8           |
+|Campo del Cielo|5247 |Valid   |Iron, IAB-MG |5.0E7   |Found|1575|-27.46667|-60.58333 |Argentina         |8.75E7           |
+|Chupaderos     |5363 |Valid   |Iron, IIIAB  |2.43E7  |Found|1852|27.0     |-105.1    |Mexico            |6.37875E7        |
+|Canyon Diablo  |5257 |Valid   |Iron, IAB-MG |3.0E7   |Found|1891|35.05    |-111.03333|United States     |5.25E7           |
+|Sikhote-Alin   |23593|Valid   |Iron, IIAB   |2.3E7   |Fell |1947|46.16    |134.65333 |Russian Federation|5.03125E7        |
+|Armanty        |2335 |Valid   |Iron, IIIE   |2.8E7   |Found|1898|47.0     |88.0      |China             |4.9E7            |
+|Gibeon         |10912|Valid   |Iron, IVA    |2.6E7   |Found|1836|-25.5    |18.0      |Namibia           |4.55E7           |
+|Mundrabilla    |16852|Valid   |Iron, IAB-ung|2.4E7   |Found|1911|-30.78333|127.55    |Australia         |4.2E7            |
+|Willamette     |24269|Valid   |Iron, IIIAB  |1.55E7  |Found|1902|45.36667 |-122.58333|United States     |4.06875E7        |
++---------------+-----+--------+-------------+--------+-----+----+---------+----------+------------------+-----------------+
+only showing top 10 rows
+
+
+============================================================
+
+Países con más meteoritos destructivos registrados:
++------------------+-------------+----------+---------+
+|country           |total_impacts|avg_mass  |max_mass |
++------------------+-------------+----------+---------+
+|United States     |338          |205740.89 |3.0E7    |
+|Antarctica        |106          |4876.88   |138100.0 |
+|Australia         |77           |586186.64 |2.4E7    |
+|Ghana             |52           |3278.37   |32000.0  |
+|Mexico            |50           |1400936.3 |2.43E7   |
+|Unknown           |49           |15805.15  |164000.0 |
+|Chile             |39           |29165.56  |320000.0 |
+|Russian Federation|37           |725418.66 |2.3E7    |
+|South Africa      |31           |87567.12  |1173000.0|
+|Canada            |27           |2178944.39|5.82E7   |
++------------------+-------------+----------+---------+
+only showing top 10 rows
